@@ -1,5 +1,6 @@
 # Campus Event Manager
-Campus Event Manager is a full-stack platform designed to streamline the organization and management of college events. Administrators can effortlessly create, manage, and monitor events via a user-friendly web interface, while students can browse and register for upcoming activities through web or mobile apps. The system features QR code-based attendance tracking for accurate and efficient check-ins on event day. Built with a modular architecture, the platform leverages React.js for the web frontend, React Native for mobile applications, and FastAPI for the backend API, supported by a SQLite/PostgreSQL database. It also implements role-based authentication with JWT, ensuring secure access and a personalized experience for both administrators and students.
+Campus Event Manager is a user-friendly platform designed to simplify the process of organizing and managing college events. Administrators can quickly create, update, and track events through a straightforward web interface. Students can discover and register for events using either the website or the mobile app, making participation convenient. On event day, checking in is simple with QR codes, ensuring fast and accurate attendance. The platform is built with flexibility in mind, using React.js for the web frontend, React Native for mobile apps, and FastAPI for the backend, with data stored securely in SQLite or PostgreSQL. Role-based authentication with JWT ensures secure information storage and tailors access for both students and administrators.
+
 
 
 ## Features
