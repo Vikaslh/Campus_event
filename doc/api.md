@@ -1,4 +1,4 @@
-ore Functionality Covered:
+Core Functionality Covered:
 🔐 Authentication System
 
 User registration and login endpoints
