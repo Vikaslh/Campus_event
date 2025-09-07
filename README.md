@@ -19,35 +19,6 @@
 ```
 
 
-
-## API Endpoints
-
-### Authentication
-- `POST /api/auth/register` - Register a new user
-  ```json
-  {
-    "email": "user@example.com",
-    "password": "securepassword123",
-    "full_name": "John Doe",
-    "role": "student"
-  }
-  ```
-
-- `POST /api/auth/login` - User login
-  ```json
-  {
-    "email": "user@example.com",
-    "password": "securepassword123"
-  }
-  ```
-  Returns:
-  ```json
-  {
-    "access_token": "jwt_token_here",
-    "token_type": "bearer"
-  }
-  ```
-
 ### Events
 - `GET /api/events` - List all events
 - `GET /api/events/{event_id}` - Get event details
