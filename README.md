@@ -19,17 +19,6 @@
 ```
 
 
-### Events
-- `GET /api/events` - List all events
-- `GET /api/events/{event_id}` - Get event details
-- `POST /api/events` - Create new event (Admin only)
-- `PUT /api/events/{event_id}` - Update event (Admin only)
-- `DELETE /api/events/{event_id}` - Delete event (Admin only)
-
-### Registrations
-- `POST /api/events/{event_id}/register` - Register for an event
-- `GET /api/users/me/registrations` - Get user's event registrations
-- `DELETE /api/registrations/{registration_id}` - Cancel registration
 
 ## Project Flow
 
